@@ -1,0 +1,54 @@
+.img {
+
+    &__arrow-way {
+        width: 80px;
+        animation: pulse 1.5s ease-in-out infinite;
+        
+        @media only screen and (min-width: 768px) {
+            width: 200px;
+        }
+    }
+
+    &__arrow-swirly {
+        width: 200px;
+        animation: pulse 1.5s ease-in-out infinite;
+        
+        @media only screen and (min-width: 1300px) {
+            width: 250px;
+        }
+    }
+
+    &__mail {
+        fill: $primary-color;
+        transform: rotate(-20deg);
+        width: 50px;
+
+        @media only screen and (min-width: 768px) {
+            width: 100px;
+        }
+    }
+
+    &__lin {
+        fill: $primary-color;
+        transform: rotate(20deg);
+        width: 30px;
+        
+        @media only screen and (min-width: 768px) {
+            width: 70px;
+        }
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }   
+
+    50% {
+        transform: scale(1.07);
+    }  
+
+    100% {
+        transform: scale(1);
+    }  
+}

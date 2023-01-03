@@ -1,0 +1,39 @@
+.info {
+    background-color: rgba(#E0DEDE, .25);
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    
+    &__top {
+        border: 10px solid $secondary-color;
+        border-radius: 20px;
+        position: relative;
+
+        @media only screen and (min-width: 992px) {
+            left: 50px;
+        }
+    }
+
+    &__bot {
+        border: 10px solid $secondary-color;
+        border-radius: 20px;
+        padding-bottom: 50px;
+        position: relative;
+        top: 50px;
+        
+        @media only screen and (min-width: 720px) {
+            padding-left: 120px;
+            padding-top: 20px;
+            padding-right: 30px;
+            padding-bottom: 120px;
+            top: 110px;
+            left: -100px;        
+        }
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 1.1rem;
+        line-height: 1.45rem;
+        letter-spacing: 1px;
+    }
+}

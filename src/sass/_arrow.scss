@@ -1,0 +1,39 @@
+.arrow {
+    position: relative;
+
+    &__hero{
+        display: none;
+
+        @media only screen and (min-width: 768px) {
+            display: block;
+            left: 190px;
+            top: -160px;
+        }
+    }
+
+    &__project{
+        display: flex;
+        justify-content: end;
+        top: 80px;
+
+        @media only screen and (min-width: 1300px) {
+            right: -150px;
+        }
+    }
+
+    &__contact{
+        top: 80px;
+        padding-left: 10px;
+        padding-top: 30px;
+        
+        @media only screen and (min-width: 720px) {
+            top: 100px;
+        }
+        
+        @media only screen and (min-width: 1300px) {
+            top: 110px;
+            left: -80px;
+        }
+    }
+    
+}

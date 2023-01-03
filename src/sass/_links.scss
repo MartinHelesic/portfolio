@@ -1,0 +1,57 @@
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    transition: all .4s ease-in-out;
+    gap: 10px;
+
+    @media only screen and (min-width: 768px) {
+        gap: 100px;
+    }
+    
+    &:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+    }
+}
+
+
+.link {
+    
+    &__a {
+        a {
+            display: block;
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 1.5rem;
+            
+            @media only screen and (min-width: 768px) {
+                font-size: 2.7rem;
+            }
+        }
+    }
+
+    &--mail {
+        &:hover .link__a  a{
+            color: $mail-color; 
+        }
+
+        &:hover svg{
+            transform: rotate(0deg);
+            fill: $mail-color;
+        }
+    }
+    
+    &--lin {
+        &:hover .link__a a{
+            color: $lin-color; 
+        }
+
+        &:hover svg {
+            fill: $lin-color;
+            transform: rotate(0deg);
+        }
+    }
+}

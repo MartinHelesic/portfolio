@@ -1,0 +1,52 @@
+.hero {
+
+    @media only screen and (min-width: 992px) {
+        margin-bottom: -100px;
+    }
+
+    h1 {
+        font-size: 3rem;
+
+        @media only screen and (min-width: 1300px) {
+            font-size: 4rem;
+        }
+    }
+
+    &__img {
+        padding: 10px 8px 4px 10px;
+        border: 8px solid $secondary-color;
+        border-radius: 20px;   
+        transform: rotate(6deg);
+        transition: all .4s ease;
+        margin-top: 70px;
+
+        @media only screen and (min-width: 768px) {
+            margin-top: -95px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            margin-top: -55px;
+        }
+
+        &:hover {
+            transform: rotate(0deg);
+            cursor: not-allowed;
+        }
+
+        img {
+            height: 170px;
+            width: auto;
+            border-radius: 20px;   
+            
+            @media only screen and (min-width: 768px) {
+                height: 250px;
+            }
+
+            @media only screen and (min-width: 1200px) {
+                height: 300px;
+            }
+        }
+    }
+
+
+}

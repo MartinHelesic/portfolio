@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><MartinHelešic /></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/sass/styles.scss">
+  </head>
+  
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <a href="#home">
+            &lt;MartinHelešic /&gt;
+          </a>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="#home" class="header__link">Domů</a></li>
+            <li><a href="#projects" class="header__link">Projekty</a></li>
+            <li><a href="#info" class="header__link">Info</a></li>
+            <li><a href="#contact" class="btn">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="hamburger hamburger--slider">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section hero">
+        <div class="line line--l"></div>
+        <div class="container">
+          <div class="box">
+            <div>
+              <h1>Tvořím <br>uživatelský<br> zážitek</h1>
+              <a href="#contact" class="btn">Navázat spojení</a>
+              <div class="arrow arrow__hero">
+                <img src="./src/img/curved-arrow.svg" alt="Curved arrow" class="img__arrow-way">
+              </div>
+            </div>
+          
+            <div>
+              <div class="hero__img">
+                <img src="./src/img/profileBaW.jpg" alt="Profile img black and white">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div id="projects" class="section">
+        <div class="line line--r"></div>
+        <div class="container">
+          <h2 class="title title--r">Projekty</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://performio.cz/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/performio.png" alt="Performio.cz">
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://incargo.eu/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/incargo.png" alt="IN CARGO">
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://rezidencespojovaci.cz/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/rezidencespojovaci.png" alt="Rezidence Spojovací">
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://officeportal.cz/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/officeportal.png" alt="Office Portal">
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://coolcredit.cz/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/coolcredit.png" alt="COOL CREDIT">
+                  </a>
+                </div>
+              </div>
+           
+              <div class="swiper-slide">
+                <div class="swiper__project">
+                  <a href="https://devotrack.cz/" rel="noreferrer nofollow" target="_blank">
+                    <img src="./src/img/projects/devotrack.png" alt="devotrack">
+                  </a>
+                </div>
+              </div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="arrow arrow__project arrow--pulse">
+          <img src="./src/img/curly-arrow.svg" alt="Curved arrow" class="img__arrow-swirly">
+        </div>
+      </div>
+
+      <div id="info" class="section">
+        <div class="line line--l"></div>
+        <div class="container">
+          
+          <h2 class="title">Info</h2>
+          <div class="info__top">
+            <div class="info__bot">
+              <div class="info">       
+                <h2>Bio:</h2>     
+                <p>
+                  Jako front-end vývojář se smyslem pro detail při své práci kloubím estetiku s funkčností. 
+                </p>
+                <p>
+                  Za léta své praxe jsem se naučil, jak vytvořit weby splňující nejmodernější UX/UI požadavky. 
+                </p>
+                <p>
+                  Mým cílem je vytvářet na webu takový zážitek, díky kterému se bude uživatel na stránky rád vracet. 
+                </p>              
+
+                <h2>Technologie:</h2>
+                <div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="arrow arrow__contact arrow--pulse">
+          <img src="./src/img/swirly-arrow.svg" alt="Curved arrow" class="img__arrow-swirly">
+        </div>
+      </div>
+
+      <div id="contact" class="section">
+        <div class="container">
+          <h2 class="title title--r">Kontakt</h2>
+          <div>
+
+            <div class="links link--mail">
+                <div>
+                  <a href="mailto:helesic.martin@gmail.com?subject=Spojení" class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xml:space="preserve" class="img__mail"><path d="M13.266 81h73.469C89.087 81 91 78.967 91 76.614V26.165l.003.034c0-2.348-1.914-4.199-4.267-4.199H13.265C10.913 22 9 23.795 9 26.147v50.467C9 78.967 10.913 81 13.266 81zm25.259-31.878L13 74.442V29.89l25.525 19.232zM87 30.186v42.289L62.914 48.581 87 30.186zM59.723 51.02c.044.053.082.169.132.22L85.764 77H16.221l25.533-25.387 7.481 5.607c.356.268.779.388 1.203.388.428 0 .855-.144 1.214-.418l8.071-6.17zM86.047 26 50.431 53.202 14.326 26h71.721z"/></svg>
+                  </a>
+                </div>
+
+                <div class="link__a">
+                  <a href="mailto:helesic.martin@gmail.com?subject=Spojení" class="">helesic.martin@gmail.com</a>
+                </div>
+              
+            </div>
+
+            <div class="links link--lin">
+              <div class="link__a">
+                <a href="https://www.linkedin.com/in/martin-helesic/" target="_blank">LinkedIn</a>
+              </div>
+
+              <div>
+                <a href="https://www.linkedin.com/in/martin-helesic/" target="_blank">
+                  <svg fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="img__lin"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"> <path d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"></path> </g></svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer></footer>
+
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>

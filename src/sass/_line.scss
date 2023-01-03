@@ -1,0 +1,26 @@
+.line {
+    background-color: $secondary-color;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    width: 10px;   
+    height: 90%;
+    
+    @media only screen and (min-width: 768px) {
+        width: 15px;   
+        height: 130%;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 25px;   
+    }
+    
+
+    &--l {
+        left: 0;
+    }
+
+    &--r {
+        right: 0;
+    }
+}
