@@ -34,9 +34,9 @@
         }
 
         img {
-            height: 170px;
-            width: auto;
             border-radius: 20px;   
+            width: auto;
+            height: 170px;
             
             @media only screen and (min-width: 768px) {
                 height: 250px;

@@ -1,8 +1,9 @@
 .img {
 
     &__arrow-way {
-        width: 80px;
         animation: pulse 1.5s ease-in-out infinite;
+        height: auto;
+        width: 80px;
         
         @media only screen and (min-width: 768px) {
             width: 200px;
@@ -10,8 +11,9 @@
     }
 
     &__arrow-swirly {
-        width: 200px;
         animation: pulse 1.5s ease-in-out infinite;
+        height: auto;
+        width: 200px;
         
         @media only screen and (min-width: 1300px) {
             width: 250px;
@@ -21,6 +23,7 @@
     &__mail {
         fill: $primary-color;
         transform: rotate(-20deg);
+        height: auto;
         width: 50px;
 
         @media only screen and (min-width: 768px) {
@@ -31,6 +34,7 @@
     &__lin {
         fill: $primary-color;
         transform: rotate(20deg);
+        height: auto;
         width: 30px;
         
         @media only screen and (min-width: 768px) {
